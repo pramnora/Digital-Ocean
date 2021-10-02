@@ -9,7 +9,7 @@ _Sat 02 October 2021 18:12 PM GMT_, I signed up for a Digital Ocean '_cloud host
 
 -----
 
-Sat 02 October 2021 19:27 PM GMT, signed in to my online Digital Ocean a/c. Decided to try running a 'quick' test web server. All went fine...had it up and running in just mere minutes. As usual, I choose 'shared hosting' package -as opposed to, 'dedicated'- because it is the 'cheapest'/UBUNTU 20.04 LTS/1GB. I SSH-ed into it using the Digital Ocean web based console; and, did some setting up....
+_Sat 02 October 2021 19:27 PM GMT_, signed in to my online Digital Ocean a/c. Decided to try running a 'quick' test web server. All went fine...had it up and running in just mere minutes. As usual, I choose 'shared hosting' package -as opposed to, 'dedicated'- because it is the 'cheapest'/UBUNTU 20.04 LTS/1GB. I SSH-ed into it using the Digital Ocean web based console; and, did some setting up....
 
 - update/upgrade packages; 
 - added new user: guest
@@ -22,3 +22,8 @@ Sat 02 October 2021 19:27 PM GMT, signed in to my online Digital Ocean a/c. Deci
 
 -(**NOTE**: Unfortunately, when I signed up with Linode 'cloud provider'...I missed out on their FREE $100.00 trial package; -(it pays to read, very carefully/or, at least, do some research, first...before jumping in to go buy things online; as, quite often, you will see a 'special offer' going on somewhere)-; and, so, have to keep on paying for absolutely everything I use over there; thus, I'm now thinking of closing down my Linode a/c.; and, just use this FREE Digital Ocean 'cloud hosting' service offering, instead.)- 
 
+-----
+
+_Sat 02 October 2021 20:29 PM GMT_, I needed to confirm if I could SSH remotely into my instance server; -(I used MS-DOS SSH to acheive doing that)- ; and, yes, it worked. Finally, I decided rather than  leave my instance server -which Digital Ocean calls: 'droplet'- up there, and, constantly, running...thus, running up endless charges, as well; to just 'destroy' the instance, instead; which is exactly what I did. This means, the next time I try and create an instance server...I will be given a 'new' IP Address.../and, also, have to re-configure it again starting from total scatch.
+
+-(**NOTE**: It is possible to create scripts which will do all of the pre-configuring for you, automatically; however, I really haven't created any such maintenance scripts, yet...?!)-
